@@ -473,7 +473,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Function to generate social share URLs
-  function generateShareUrls(activityName, description, schedule) {
+  function generateShareUrls(activityName, description) {
     const pageUrl = encodeURIComponent(window.location.href);
     const text = encodeURIComponent(`Check out ${activityName} at Mergington High School! ${description}`);
     const hashtags = encodeURIComponent("MergingtonHigh,ExtracurricularActivities");
@@ -533,7 +533,7 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
 
     // Generate share URLs for this activity
-    const shareUrls = generateShareUrls(name, details.description, formattedSchedule);
+    const shareUrls = generateShareUrls(name, details.description);
 
     activityCard.innerHTML = `
       ${tagHtml}
