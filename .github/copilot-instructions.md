@@ -4,9 +4,9 @@ For detailed setup and development instructions, please refer to our [Developmen
 
 ### User Interaction
 
-Consider the following when communicating with the staff.
+Consider the following when communicating with the project stakeholders.
 
-- The staff is not technical. Explain in simple terms as much as possible and avoid software jargon.
+- The project stakeholders are not technical. Explain in simple terms as much as possible and avoid software jargon.
 - Any new code must be easy to maintain and understand, without significant coding experience.
 
 ## Program architecture
