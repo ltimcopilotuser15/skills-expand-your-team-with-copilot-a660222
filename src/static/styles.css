@@ -723,3 +723,11 @@ footer {
 #dark-mode-toggle .mode-icon {
   display: inline-block;
 }
+
+/* Responsive adjustments for dark mode toggle */
+@media (max-width: 480px) {
+  #dark-mode-toggle {
+    padding: 6px 10px;
+    font-size: 1rem;
+  }
+}
